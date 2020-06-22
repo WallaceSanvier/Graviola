@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /about/
+
+Sitemap: https://www.gaslidergas.com.br/sitemap.xml
