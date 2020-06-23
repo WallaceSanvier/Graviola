@@ -31,7 +31,13 @@ class Navbar extends Component {
                     </Link>
                   </div>
 
-                  <div className="btn"></div>
+                  <div className="btn" onClick={this.handleClick}>
+                    <button
+                      style={{ color: "white", backgroundColor: "#a020f0" }}
+                    >
+                      Home
+                    </button>
+                  </div>
                 </div>
 
                 <ul className={this.state.isOpen ? "showNav" : "undefined"}>

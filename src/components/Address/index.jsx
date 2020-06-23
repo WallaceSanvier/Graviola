@@ -10,12 +10,8 @@ class Address extends Component {
         <Container>
           <div className="grid-container">
             <div>
-              <h3>Segunda a Sábado das 8:00 as 20:00hrs.</h3>
-              <h3>Domingos e Feriados das 8:00 as 13:00hrs.</h3>
-
-              <div>
-                <h4>5ª Avenida, número 406 - Leste Vila Nova</h4>
-              </div>
+              <h3>Centro cultural Oscar Niemayer</h3>
+              <h3>Aberto ás 16:00</h3>
 
               <div>
                 <h3>Goiânia-Goiás</h3>
@@ -33,12 +29,7 @@ class Address extends Component {
                   href="https://wa.me/5562985087244?text=Saudações!%20Solicito%20o%20seu%20atendimento."
                   target="_blank"
                   rel="noopener noreferrer"
-                >
-                  <h4>Cel: (62) 98508-7244</h4>
-                </OutboundLink>
-              </div>
-              <div>
-                <h3>Fone: (62) 3261-4000</h3>
+                ></OutboundLink>
               </div>
             </div>
           </div>
@@ -52,11 +43,7 @@ class Address extends Component {
           </div>
 
           <div className="google-maps">
-            <iframe
-              className="iframe2"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d955.5475748921962!2d-49.246325!3d-16.667358!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef3d4a3c793d3%3A0x4fced570a0942d07!2s5%C2%AA%20Avenida%2C%20406%20-%20Leste%20Vila%20Nova%2C%20Goi%C3%A2nia%20-%20GO%2C%2074643-030!5e0!3m2!1spt-BR!2sbr!4v1585335207480!5m2!1spt-BR!2sbr"
-              title="googlemaps"
-            ></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244608.12811393512!2d-49.4654050452255!3d-16.676783272017396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef049566fb0d1%3A0x4123957cb2e67491!2sCentro%20Cultural%20Oscar%20Niemeyer!5e0!3m2!1spt-BR!2sbr!4v1592930954049!5m2!1spt-BR!2sbr"></iframe>
           </div>
         </Place>
       </>

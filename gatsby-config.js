@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Líder Gás Distribuidora em Goiânia`,
-    description: `Para comprar gás de cozinha e água mineral de qualidade entre no site e peça pelo Whatsapp!(62) 98508-7244.Onde comprar Gas de cozinha com preço acessível.Gas de cozinha próximo.`,
+    title: `Festival Graviola`,
+    description: `Festival Cultural Graviola`,
     author: `wallacesanvier`,
     copyright: `© Copyright - Todos os Direitos Reservados`,
     siteUrl: "https://www.gaslidergas.com.br",
@@ -39,8 +39,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Líder Gás`,
-        short_name: `LíderGás`,
+        name: `Festival Graviola`,
+        short_name: `Graviola`,
         start_url: `/`,
         background_color: `#f4f4f4`,
         theme_color: `#f4f4f4`,

@@ -20,6 +20,7 @@ const IndexPage = () => {
       <Banner />
       <img src={activities} alt="Banner de atividades" />
       <Products />
+
       <SlideView />
       <Address />
     </Layout>

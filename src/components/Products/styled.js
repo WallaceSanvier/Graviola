@@ -25,12 +25,12 @@ export const Container = styled.div`
 
   h4 {
     color: red;
-    font-size: 100%;
+    font-size: 20px;
   }
 
   p {
     text-align: center;
-    font-size: 80%;
+    font-size: 100%;
   }
 
   h5 {
