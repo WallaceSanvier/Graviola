@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
 
-import * as Styled from "../Icons/styled"
 import { Container, Navigation } from "../NavBar/styled"
 
 import lidergas from "../../images/logo.png"
@@ -12,10 +11,6 @@ class Navbar extends Component {
   }
 
   handleClick = () => {
-    document.querySelector(".navbar-container").scrollIntoView({
-      behavior: "smooth",
-    })
-
     this.setState({
       isOpen: !this.state.isOpen,
     })
@@ -25,7 +20,7 @@ class Navbar extends Component {
     return (
       <>
         <Container>
-          <div className="navbar-container" onClick={this.handleClick}>
+          <div className="navbar-container">
             <Navigation>
               <nav>
                 <div className="logo-btn">
@@ -36,9 +31,7 @@ class Navbar extends Component {
                     </Link>
                   </div>
 
-                  <div className="btn" onClick={this.handleClick}>
-                    <Styled.HomeWrapper />
-                  </div>
+                  <div className="btn"></div>
                 </div>
 
                 <ul className={this.state.isOpen ? "showNav" : "undefined"}>

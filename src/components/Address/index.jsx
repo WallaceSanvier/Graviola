@@ -3,8 +3,6 @@ import { trackCustomEvent, OutboundLink } from "gatsby-plugin-google-analytics"
 
 import { Container, Place } from "./styled"
 
-import * as Styled from "../Icons/styled"
-
 class Address extends Component {
   render() {
     return (
@@ -16,10 +14,7 @@ class Address extends Component {
               <h3>Domingos e Feriados das 8:00 as 13:00hrs.</h3>
 
               <div>
-                <h4>
-                  <Styled.LocationOnWrapper />
-                  5ª Avenida, número 406 - Leste Vila Nova
-                </h4>
+                <h4>5ª Avenida, número 406 - Leste Vila Nova</h4>
               </div>
 
               <div>
@@ -39,17 +34,11 @@ class Address extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <h4>
-                    <Styled.WhatsappWrapper />
-                    Cel: (62) 98508-7244
-                  </h4>
+                  <h4>Cel: (62) 98508-7244</h4>
                 </OutboundLink>
               </div>
               <div>
-                <h3>
-                  <Styled.OldPhoneWrapper />
-                  Fone: (62) 3261-4000
-                </h3>
+                <h3>Fone: (62) 3261-4000</h3>
               </div>
             </div>
           </div>
