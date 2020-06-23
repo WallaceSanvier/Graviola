@@ -12,9 +12,9 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO
-        title="Comprar Gás de Cozinha e Agua Mineral"
+        title="Festival Graviola"
         lang="en"
-        description="Para comprar gás de cozinha e água mineral de qualidade entre no site e peça pelo Whatsapp!(62) 98508-7244.Onde comprar Gas de cozinha.Deposito de Gas de cozinha próximo."
+        description="Festival Cultural Graviola"
       />
 
       <Banner />
